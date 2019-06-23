@@ -4,6 +4,15 @@ Java specification implementation
 The library provides a single point of entry for patching an object:  
 **HTTPMethodProcessor#patch(String jsonRequest, T object)** where "jsonRequest" is a partial json request and "object" is a the object to be patched. 
 
+#### Import the following library
+```xml
+   <dependency>
+       <groupId>com.hubbledouble</groupId>
+       <artifactId>json-merge-patch</artifactId>
+       <version>1.0.0</version>
+   </dependency>
+```
+
 #### Java usage example
 ```java
  public T patch(String json, String pathParamId){
