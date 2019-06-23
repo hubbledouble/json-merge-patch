@@ -9,7 +9,7 @@ The library provides a single point of entry for patching an object:
    <dependency>
        <groupId>com.hubbledouble</groupId>
        <artifactId>json-merge-patch</artifactId>
-       <version>1.0.0</version>
+       <version>1.0.1</version>
    </dependency>
 ```
 
